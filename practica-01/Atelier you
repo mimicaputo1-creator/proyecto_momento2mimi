@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMatch</title>
+    <link rel="stylesheet" href="css/stylesheets.css">
+</head>
+
+<body>
+    <!-- COMIENZO DE HEADER -->
+    <header>
+        <div>
+            <h1> CineMatch</h1>
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./pages/descubrir.html">Descubrir</a>
+                <a href="./pages/listas.html">Listas</a>
+            </nav>
+
+            <div>
+                <input type="search" placeholder="Buscar películas..."> 
+            </div>
+            
+        </div>
+    </header>
+    
+    <main>
+        <!-- Presentacion -->
+        <section class="inicio">
+            <div>
+                <h2>Peliculas para cada momento</h2>
+                <p>Descubrí qué ver según tu estado de animo, 
+                    el tiempo que tenés y con quién vas a mirar.</p>
+                <button>Encontrar mi pelicula</button>
+            </div>
+
+            <div>
+                <!-- Imagen principal -->
+                <img src="" alt="">
+            </div>
+        </section>
+
+        <!-- Buscador de recomendaciones -->
+        <section class="buscadorDeRecomendaciones">
+            <h2>¿Qué querés ver hoy?</h2>
+            <div>
+                <label for="animo">¿Cómo te sentís?</label>
+                <select id="animo">
+                    <option value="">Quiero reírme</option>
+                    <option value="">Quiero emocionarme</option>
+                    <option value="">Quiero algo intenso</option>
+                    <option value="">Quiero llorar</option>
+                </select>
+
+                <label for="tiempo">¿Cuanto tiempo tenés?</label>
+                <select name="" id="tiempo">
+                    <option value="">Menos de 90 minutos</option>
+                    <option value="">Entre 90 y 120 minutos</option>
+                    <option value="">Mas de 2 horas</option>
+                </select>
+
+                <label for="compania">¿Con quién vas a mirar?</label>
+                <select name="" id="compania">
+                    <option value="">Solo</option>
+                    <option value="">En pareja</option>
+                    <option value="">Con amigos</option>
+                    <option value="">En Familia</option>
+                </select>
+
+                <button>Buscar mi película</button>
+            </div>
+        </section>
+
+        <!-- Recomendaciones -->
+         <section class="recomendaciones">
+            <div>
+                <h2>Recomendaciones para vos</h2>
+                <a href="">Ver mas → </a>
+            </div>
+            <div>
+                <article>
+                    <img src="https://stars-my-destination.com/wp-content/uploads/2021/09/dune-756528084-large.jpg" alt="Duna">
+                    <h3>Duna</h3>
+                    <p>2021 | Ciencia Ficción</p>
+                </article>
+
+                <article>
+                    <img src="https://es.web.img2.acsta.net/pictures/23/07/20/11/29/5479684.jpg" alt="Barbie">
+                    <h3>Barbie</h3>
+                    <p>2023 | Comedia</p>
+                </article>
+
+                <article>
+                    <img src="https://m.media-amazon.com/images/M/MV5BNTFlZDI1YWQtMTVjNy00YWU1LTg2YjktMTlhYmRiYzQ3NTVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Oppenheimer">
+                    <h3>Oppenheimer</h3>
+                    <p>2023 | Drama</p>
+                </article>
+
+                <article>
+                    <img src="https://m.media-amazon.com/images/M/MV5BOTNlZDY2NzktNDQwMS00ZWE4LWE3MmMtNGUzZTJhMmQ0NGI1XkEyXkFqcGc@._V1_.jpg" alt="Spider-Man: Un nuevo universo">
+                    <h3>Spider-Man: Un nuevo universo</h3>
+                    <p>2018 | Animación</p>
+                </article>
+            
+            </div>
+         </section>
+
+         <!-- Generos -->
+         <section class="generos">
+            <h2>Explorá por genéro</h2>
+            <div>
+                <article>
+                    <img src="img/accion.jpg" alt="">
+                    <h3>Acción</h3>
+                </article>
+
+                <article>
+                    <img src="img/comedia.jpg" alt="">
+                    <h3>Comedia</h3>
+                </article>
+
+                <article>
+                    <img src="img/drama.jpg" alt="">
+                    <h3>Drama</h3>
+                </article>
+
+                <article>
+                    <img src="img/ciencia-ficcion.jpg" alt="">
+                    <h3>Ciencia Ficción</h3>
+                </article>
+
+                <article>
+                    <img src="img/terror.jpg" alt="">
+                    <h3>Terror</h3>
+                </article>
+
+                <article>
+                    <img src="img/romance.jpg" alt="">
+                    <h3>Romance</h3>
+                </article>
+
+                <article>
+                    <img src="img/animacion.jpg" alt="">
+                    <h3>Animación</h3>
+                </article>
+            </div>
+         </section>
+    </main>
+
+    <footer>
+        <div>
+            <div>
+                <h2>CineMatch</h2>
+            </div>
+
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./pages/descubrir.html">Descubrir</a>
+                <a href="./pages/listas.html">Listas</a>
+                <a href="">Ayuda</a>
+                <a href="">Contacto</a>
+            </nav>
+
+            <div>
+                <a href="">Instagram</a>
+                <a href="">X</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
